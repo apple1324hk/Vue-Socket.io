@@ -1,6 +1,6 @@
 {
-  "name": "vue-socket.io",
-  "version": "2.1.1-a",
+  "name": "vue-socketio",
+  "version": "2.2",
   "description": "socket.io implemantation for vuejs and vuex",
   "main": "dist/build.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MetinSeylan/Vue-Socket.io.git"
+    "url": "git+https://github.com/apple1324hk/Vue-Socket.io"
   },
   "keywords": [
     "vuejs",
@@ -22,12 +22,12 @@
     "vuex",
     "redux"
   ],
-  "author": "Metin Seylan",
+  "author": "Harry Lo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MetinSeylan/Vue-Socket.io/issues"
+    "url": "https://github.com/apple1324hk/Vue-Socket.io"
   },
-  "homepage": "https://github.com/MetinSeylan/Vue-Socket.io#readme",
+  "homepage": "",
   "dependencies": {
     "socket.io-client": "^2.0.0"
   },
