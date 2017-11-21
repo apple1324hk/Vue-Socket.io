@@ -1,0 +1,72 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;D:\Program Files\;D:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files\Git LFS;C:\Program Files\dotnet\;C:\Program Files\MongoDB\Server\3.4\bin\;C:\Python27;C:\Users\harry.lo\AppData\Roaming\Python\Scripts\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\GtkSharp\2.12\bin;D:\HashiCorp\Vagrant\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Java\jdk1.8.0_144\bin;D:\Android\sdk\tools;D:\Android\sdk\platform-tools;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files (x86)\Yarn\bin;C:\Users\harry.lo\AppData\Local\Google\Chrome\Application;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Git\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files;C:\Program Files\MongoDB\Server\3.4\bin;C:\Python27;C:\Users\harry.lo\AppData\Roaming\Python\Scripts\;C:\Users\harry.lo\AppData\Local\Programs\Fiddler;C:\Users\harry.lo\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\harry.lo\AppData\Local\Yarn\bin;C:\Program Files\Microsoft VS Code\bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.9.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "vue-socketio",
+    "version": "2.1.1-b",
+    "description": "socket.io implemantation for vuejs and vuex",
+    "main": "dist/build.js",
+    // "main": "src/Main.js",
+    "scripts": {
+      "build": "webpack --progress --hide-modules"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/apple1324hk/Vue-Socket.io"
+    },
+    "keywords": [
+      "vuejs",
+      "socket",
+      "vue",
+      "socket.io",
+      "websocket",
+      "socket.io-client",
+      "realtime",
+      "flux",
+      "vuex",
+      "redux"
+    ],
+    "author": "Harry Lo",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/apple1324hk/Vue-Socket.io"
+    },
+    "homepage": "",
+    "dependencies": {
+      "socket.io-client": "^2.0.0"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.11.4",
+      "babel-loader": "^6.2.5",
+      "babel-preset-es2015": "^6.3.13",
+      "webpack": "^2.2.0-rc.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: C:\Users\harry.lo\Desktop\MeetFriends\Vue-Socket.io\package.json: Unexpected token / in JSON at position 145
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:770:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:92:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:103:13
+      at <anonymous>

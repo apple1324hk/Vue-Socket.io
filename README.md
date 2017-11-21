@@ -1,4 +1,4 @@
-# Vue-Socket.io
+# Vue-Socketio
 
 [![NPM version](https://img.shields.io/npm/v/vue-socket.io.svg)](https://www.npmjs.com/package/vue-socket.io)
 ![VueJS v2 compatible](https://img.shields.io/badge/Vuejs%202-compatible-green.svg)
@@ -11,15 +11,26 @@ socket.io implementation for Vuejs 2 and Vuex
 ## Install
 
 ``` bash
-npm install vue-socket.io --save
+npm install vue-socketio --save
 ```
 
 ## Usage
 #### Configuration
 Automatic socket connection from an URL string
 ``` js
-import VueSocketio from 'vue-socket.io';
+import VueSocketio from 'vue-socketio';
 Vue.use(VueSocketio, 'http://socketserver.com:1923');
+```
+
+Bind socketio init option, option ref: https://socket.io/docs/client-api/#new-manager-url-options
+``` js
+let option = {
+    query: {
+        token: 'abc'
+    },
+    autoConnect: false
+}
+Vue.use(VueSocketio, 'http://socketserver.com:1923', option);
 ```
 
 Bind custom socket.io-client instance
@@ -107,8 +118,3 @@ export default new Vuex.Store({
     }
 })
 ```
-
-## Example
-[Realtime Car Tracker System](http://metinseylan.com/)
-
-[Simple Chat App](http://metinseylan.com/vuesocketio/)
